@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/ledgerai/__init__.py
+src/ledgerai/fake_data.py
+src/ledgerai/money.py
+src/ledgerai.egg-info/PKG-INFO
+src/ledgerai.egg-info/SOURCES.txt
+src/ledgerai.egg-info/dependency_links.txt
+src/ledgerai.egg-info/requires.txt
+src/ledgerai.egg-info/top_level.txt
+src/ledgerai/db/__init__.py
+src/ledgerai/db/crud.py
+src/ledgerai/db/schema.py
+tests/test_db_phase1.py
+tests/test_fake_data.py
+tests/test_money.py

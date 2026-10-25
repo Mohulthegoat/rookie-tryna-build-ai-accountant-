@@ -1,0 +1,23 @@
+﻿Date,VoucherNo,VoucherType,LedgerName,Debit,Credit,Narration,ChequeNo
+01/10/2025,RV-001,Receipt,Bank,"45,000.00",,Receipt from Retail Customer against SAL-2001,
+01/10/2025,RV-001,Receipt,Sales,,"45,000.00",Receipt from Retail Customer against SAL-2001,
+03/10/2025,PV-001,Payment,Purchases,"11,800.00",,Payment to ABC Suppliers against INV-1001,
+03/10/2025,PV-001,Payment,Bank,,"11,800.00",Payment to ABC Suppliers against INV-1001,
+05/10/2025,PV-002,Payment,Purchases,"23,600.00",,Advance to Ganesh Enterprises - invoice not received,
+05/10/2025,PV-002,Payment,Bank,,"23,600.00",Advance to Ganesh Enterprises - invoice not received,
+07/10/2025,RV-002,Receipt,Bank,"30,000.00",,Receipt from Retail Customer against SAL-2002,
+07/10/2025,RV-002,Receipt,Sales,,"30,000.00",Receipt from Retail Customer against SAL-2002,
+08/10/2025,PV-003,Payment,Purchases,"10,030.00",,Payment to Same Supplier against INV-1003,
+08/10/2025,PV-003,Payment,Bank,,"10,030.00",Payment to Same Supplier against INV-1003,
+09/10/2025,RV-003,Receipt,Bank,"15,000.00",,Receipt from Gupta & Sons against SAL-2005,
+09/10/2025,RV-003,Receipt,Sales,,"15,000.00",Receipt from Gupta & Sons against SAL-2005,
+12/10/2025,RV-004,Receipt,Bank,"20,000.00",,Receipt from Verma Stores against SAL-2003,
+12/10/2025,RV-004,Receipt,Sales,,"20,000.00",Receipt from Verma Stores against SAL-2003,
+15/10/2025,PV-004,Payment,Purchases,"6,000.00",,Payment to Split Supplier - part 1 of INV-1004,
+15/10/2025,PV-004,Payment,Bank,,"6,000.00",Payment to Split Supplier - part 1 of INV-1004,
+16/10/2025,PV-005,Payment,Purchases,"5,800.00",,Payment to Split Supplier - part 2 of INV-1004,
+16/10/2025,PV-005,Payment,Bank,,"5,800.00",Payment to Split Supplier - part 2 of INV-1004,
+25/10/2025,RV-005,Receipt,Bank,"12,000.00",,Receipt from Verma Stores against SAL-2004,
+25/10/2025,RV-005,Receipt,Sales,,"12,000.00",Receipt from Verma Stores against SAL-2004,
+26/10/2025,PV-006,Payment,Purchases,"12,000.00",,Cheque issued to Uncleared Supplier - not yet presented,100030
+26/10/2025,PV-006,Payment,Bank,,"12,000.00",Cheque issued to Uncleared Supplier - not yet presented,100030

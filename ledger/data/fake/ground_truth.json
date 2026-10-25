@@ -1,0 +1,95 @@
+{
+  "note": "ALL DATA IS FAKE. Amounts are whole paise integers.",
+  "generated_with_seed": 42,
+  "company": {
+    "name": "Sharma Trading Co. Pvt. Ltd. (FAKE)",
+    "gstin": "27AABCS1234F1Z5",
+    "pan": "AABCS1234F",
+    "state_code": "27",
+    "state": "Maharashtra",
+    "financial_year": "2025-26",
+    "period": "October 2025",
+    "currency": "INR"
+  },
+  "period": {
+    "start": "2025-10-01",
+    "end": "2025-10-31"
+  },
+  "opening_balance_paise": 10000000,
+  "closing_balance_paise": 15459005,
+  "counts": {
+    "bank_transactions": 12,
+    "ledger_lines": 22,
+    "purchase_invoices": 6,
+    "sales_invoices": 6
+  },
+  "cases": [
+    {
+      "type": "missing_invoice",
+      "description": "Bank payment to Ganesh Enterprises with no purchase invoice on record",
+      "bank_row": 3,
+      "date": "2025-10-05",
+      "amount_paise": 2360000,
+      "vendor": "GANESH ENTERPRISES"
+    },
+    {
+      "type": "duplicate_payment",
+      "description": "The same payment to Same Supplier appears twice on the same day",
+      "bank_rows": [
+        5,
+        6
+      ],
+      "date": "2025-10-08",
+      "amount_paise": 1003000,
+      "vendor": "SAME SUPPLIER",
+      "valid_invoice": "INV-2025-1003"
+    },
+    {
+      "type": "split_payment",
+      "description": "One invoice paid by two bank transactions",
+      "invoice_no": "INV-2025-1004",
+      "invoice_total_paise": 1180000,
+      "bank_rows": [
+        9,
+        10
+      ],
+      "parts_paise": [
+        600000,
+        580000
+      ]
+    },
+    {
+      "type": "small_difference",
+      "description": "Bank credit is 5 paise more than the ledger receipt",
+      "bank_row": 7,
+      "date": "2025-10-09",
+      "bank_amount_paise": 1500005,
+      "ledger_amount_paise": 1500000,
+      "difference_paise": 5,
+      "party": "Gupta & Sons"
+    },
+    {
+      "type": "uncleared_cheque",
+      "description": "Cheque 100030 is in the ledger but has not appeared in the bank statement",
+      "voucher_no": "PV-006",
+      "cheque_no": "100030",
+      "date": "2025-10-26",
+      "amount_paise": 1200000
+    },
+    {
+      "type": "unrecorded_bank_charge",
+      "description": "Bank debited charges that are not in the ledger",
+      "bank_row": 11,
+      "date": "2025-10-20",
+      "amount_paise": 15000
+    }
+  ],
+  "files": {
+    "bank_csv": "bank_statement_oct2025.csv",
+    "bank_xlsx": "bank_statement_oct2025.xlsx",
+    "ledger": "ledger_oct2025.csv",
+    "purchase_invoices": "purchase_invoices_oct2025.csv",
+    "sales_invoices": "sales_invoices_oct2025.csv",
+    "parties": "vendors_and_customers_oct2025.csv"
+  }
+}
